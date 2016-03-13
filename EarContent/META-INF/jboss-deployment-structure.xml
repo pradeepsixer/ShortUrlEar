@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.3">  
+	<sub-deployment name="ShortUrlWeb.war">
+		<dependencies>
+			<module name="com.shorturl" />
+		</dependencies>
+	</sub-deployment>
+</jboss-deployment-structure>

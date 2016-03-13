@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	id="Short_Url_Banner_Gen" version="7">
+  <display-name>ShortUrlEar</display-name>
+  <module>
+    <ejb>ShortUrlEjb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>ShortUrlWeb.war</web-uri>
+      <context-root>ShortUrlWeb</context-root>
+    </web>
+  </module>
+  <module>
+  	<java>
+  		ShortUrlDataModel.jar
+  	</java>
+  </module>
+</application>
